@@ -1,4 +1,4 @@
-//ÁÁÁÎ-02-18 Ôðîëîâ Ïàâåë Äåíèñîâè÷ 12 âàðèàíò
+
 #include <windows.h>
 #include <iostream>
 #include <stdio.h>
