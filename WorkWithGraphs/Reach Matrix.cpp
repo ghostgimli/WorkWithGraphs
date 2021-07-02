@@ -1,4 +1,4 @@
-//БББО-02-18 Фролов Павел Денисович 12 вариант
+//ГЃГЃГЃГЋ-02-18 Г”Г°Г®Г«Г®Гў ГЏГ ГўГҐГ« Г„ГҐГ­ГЁГ±Г®ГўГЁГ· 12 ГўГ Г°ГЁГ Г­ГІ
 #include <windows.h>
 #include <iostream>
 #include <stdio.h>
@@ -708,13 +708,13 @@ int Spisok::Change(char c){
 				plast=pcur;
 				pcur=pcur->sled;
 			}
-			pcur->vert[0]=' ';n=atoi(pcur->vert);pcur->vert[0]='v';//n-начальная вершина
+			pcur->vert[0]=' ';n=atoi(pcur->vert);pcur->vert[0]='v';//n-Г­Г Г·Г Г«ГјГ­Г Гї ГўГҐГ°ГёГЁГ­Г 
 			
 			if (flag==1){
 					cout<<"such vertex is already exist!!!";return 0;
 			}
 			else{strcpy(pcur->vert,v1);
-			pcur->vert[0]=' ';k=atoi(pcur->vert);pcur->vert[0]='v';//k-новая вершина
+			pcur->vert[0]=' ';k=atoi(pcur->vert);pcur->vert[0]='v';//k-Г­Г®ГўГ Гї ГўГҐГ°ГёГЁГ­Г 
 			}	
 			if (pcur==pbegin){
 				pbegin=pcur;
